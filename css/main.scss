@@ -1,0 +1,14 @@
+$pcolor:white;
+$pwidth:50px;
+$pheight:50px;
+p
+{
+color:$pcolor;
+width:$pwidth;
+height: $pheight;
+}
+
+@mixin display
+{
+    
+}

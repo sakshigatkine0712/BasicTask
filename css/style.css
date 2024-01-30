@@ -1,0 +1,121 @@
+@import "main";
+body
+{
+ background-color: aliceblue;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+
+.nav
+{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    background-color: darkslategrey;
+    z-index: 1000;
+}
+
+.nav ul
+{
+position:absolute;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.nav ul li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.nav ul li a
+{
+
+font-size: 20px;
+font-weight: bold;
+cursor: pointer; 
+display: block;
+color: white;
+text-align: center;
+padding: 13px 16px;
+text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background-color: forestgreen;
+}
+.content
+{
+    position: absolute;
+    top:50px;
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.content p
+{
+text-align: justify;
+padding: 20px;
+}
+.form {
+  
+    border-radius: 15px;
+    background-color: rgb(253, 250, 250);
+    padding: 20px;
+    width: 40%;
+    margin:30px auto; /* add space from top to 30px and center the division horizontally */
+  }
+  .form label{
+    font-weight: bold;
+  }
+ 
+  .form input ,  .form select
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+
+.form button
+{
+  background-color: #4CAF50;
+  color: white;
+  display:flex;
+  justify-content: center;
+  padding: 14px 20px;
+  font-weight: bold;
+  width: 30%;
+  margin: 20px auto 8px auto;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+} 
+
+.footer-content
+{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    width:100%;
+}
+
+.footer-content p
+{
+text-align: justify;
+color: white;
+padding: 10px 25px;
+}
+
+.card {
+    
+    width: 40%;
+  }
+  
+  
